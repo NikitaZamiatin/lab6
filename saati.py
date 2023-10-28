@@ -11,3 +11,6 @@ for i in range(n):
 weights = [sum(line)/n for line in matrix]
 
 rounded_weights = [round(weight, 2) for weight in weights]
+
+for i in range(len(weights)):
+    print("Весовой коэффициент критерия "+(i+1)+": "+weights[i])
